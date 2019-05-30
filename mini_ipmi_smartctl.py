@@ -9,16 +9,16 @@ binPath_OTHER      = r'/usr/local/sbin/smartctl'
 
 # path to zabbix agent configuration file
 agentConf_LINUX    = r'/etc/zabbix/zabbix_agentd.conf'
-agentConf_WIN      = r'C:\zabbix_agentd.conf'
+agentConf_WIN      = r'C:\Program Files\Zabbix Agent\zabbix_agentd.conf'
 agentConf_OTHER    = r'/usr/local/etc/zabbix3/zabbix_agentd.conf'
 
 senderPath_LINUX   = r'zabbix_sender'
-senderPath_WIN     = r'C:\zabbix-agent\bin\win32\zabbix_sender.exe'
+senderPath_WIN     = r'C:\Program Files\Zabbix Agent\zabbix_sender.exe'
 senderPath_OTHER   = r'/usr/local/bin/zabbix_sender'
 
 # path to second send script
 senderPyPath_LINUX = r'/etc/zabbix/scripts/sender_wrapper.py'
-senderPyPath_WIN   = r'C:\zabbix-agent\scripts\sender_wrapper.py'
+senderPyPath_WIN   = r'C:\Program Files\Zabbix Agent\scripts\sender_wrapper.py'
 senderPyPath_OTHER = r'/usr/local/etc/zabbix/scripts/sender_wrapper.py'
 
 
