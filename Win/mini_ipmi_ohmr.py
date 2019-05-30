@@ -3,16 +3,16 @@
 ## Installation instructions: https://github.com/nobodysu/zabbix-mini-IPMI ##
 
 #binPath = r'OpenHardwareMonitorReport.exe'
-binPath = r'C:\distr\OpenHardwareMonitorReport\OpenHardwareMonitorReport.exe'   # if OHMR isn't in PATH
+binPath = r'C:\Program Files\OpenHardwareMonitorReport\OpenHardwareMonitorReport.exe'   # if OHMR isn't in PATH
 
 # path to second send script
-senderPyPath = r'C:\zabbix-agent\scripts\sender_wrapper.py'
+senderPyPath = r'C:\Program Files\Zabbix Agent\scripts\sender_wrapper.py'
 
 # path to zabbix agent configuration file
-agentConf = r'C:\zabbix_agentd.conf'
+agentConf = r'C:\Program Files\Zabbix Agent\zabbix_agentd.conf'
 
 #senderPath = r'zabbix_sender'
-senderPath = r'C:\zabbix-agent\bin\win32\zabbix_sender.exe'
+senderPath = r'C:\Program Files\Zabbix Agent\zabbix_sender.exe'
 
 timeout = '80'              # how long the script must wait between LLD and sending, increase if data received late (does not affect windows)
                             # this setting MUST be lower than 'Update interval' in discovery rule
